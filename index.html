@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google</title>
+<style type="text/css">
+
+body {
+    background-color: #fff; 
+	font-size: 14px;
+	font-family: Arial,sans-serif;
+	color: #222;
+}
+.head-list{
+    list-style-type: none;
+    position: fixed;
+    top: 10px;
+    right: 16px;
+    margin: 0px;
+}
+li{
+    display: inline;
+    padding-left: 14px;
+}
+#apps{
+    position: relative;
+    top: 8px;
+}
+#anmelden{
+    color: #fff;
+    font-size: 14.5px;
+    background-color: #1a73e8;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+
+.main{
+    text-align: center;
+    margin: 258px auto auto auto;
+}
+
+#suchfeld{
+    width: 582px;
+    height: 44px;
+    margin-top: 25px;
+    background-color: transparent;
+    background: url('images/search.png') no-repeat;
+    background-size: 20px;
+    background-position-x: 15px;
+    background-position-y: center;
+    border-radius: 44px;
+    border: 1px solid #dfe1e5;
+    padding-left: 50px;
+}
+
+input:focus{
+        outline: none;
+    }
+
+.submit{
+    margin: 30px 5px auto 5px;
+    padding: 7px 15px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    box-shadow: none;
+    border: none;
+    font-size: 14.5px;
+}
+
+.footer {
+    position: fixed;
+    font-size: 14.5px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+}
+p {
+    padding: 0px 0px 15px 45px;
+    border-bottom: 1px solid #dadce0;
+}
+.footer li{
+    padding-right: 15px;}
+
+.settings{
+    float: right;
+    margin-right: 15px;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+<ol class="head-list">
+ <li>Gmail</li>
+ <li>Bilder</li>  
+ <li><img src="images/apps.png" alt="apps" id="apps" width="25"></li>  
+ <li><input type="submit" id="anmelden" value="Anmelden"></li>  
+</ol>
+</div>
+
+<div class="main">
+    <img src="images/logo.png" alt="Google Logo">
+    <form action="">
+    <input type="search" name="search" id="suchfeld"><br />
+    <input type="submit" class="submit" value="Google Suche">
+    <input type="submit" class="submit" value="Auf gut Glück!">
+    </form>
+</div>
+
+<div class="footer">
+<p>Österreich</p>
+<ol>
+<li>Über Google</li>
+<li>Werbeprogramme</li>
+<li>Unternehmen</li>
+<li>Wie funktioniert die Google Suche?</li>
+<li class="settings">Einstellungen</li>
+<li class="settings">Nutzungsbedingungen</li>
+<li class="settings">Datenschutzerklärung</li>
+</ol>
+</div>
+</body>
+</html>
