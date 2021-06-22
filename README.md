@@ -1,4 +1,7 @@
 This is Bente's second project!
 
-Assignment
+Assignment:
 Build the Google.com homepage
+
+Coming from: [theodinproject](https://www.theodinproject.com)
+View Live: [here](https://bpetermann.github.io/google-homepage)
