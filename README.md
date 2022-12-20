@@ -1,3 +1,5 @@
+**This project will no longer be updated and therefore archieved**
+
 - A google.com clone build with css, html
 - First time working with css
 
